@@ -1,0 +1,13 @@
+.imageDiv {
+  overflow: hidden;
+}
+
+.imageCard {
+  transform: scale(2);
+  height: 28vh;
+  width: 100%;
+  background-color: black;
+  background-image: url("../assets/image.jpeg");
+  background-size: cover;
+  background-position: 12px 35%;
+}

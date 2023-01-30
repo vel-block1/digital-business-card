@@ -1,0 +1,8 @@
+.footer {
+  padding: 5% 15%;
+  display: flex;
+  justify-content: space-around;
+}
+.footer > img {
+  width: 2em;
+}

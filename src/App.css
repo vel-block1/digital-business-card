@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #23252c;
+}
+.card {
+  display: grid;
+  /* grid-template-rows: max-content 200px 1fr; */
+  background-color: #1a1b21;
+  color: white;
+  border-radius: 15px;
+  width: 40vh;
+  height: 90vh;
+  overflow: hidden;
+}
+
+.footer {
+  background-color: #161619;
+}

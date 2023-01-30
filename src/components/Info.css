@@ -1,0 +1,46 @@
+h1 {
+  font-size: 1.2em;
+}
+h2 {
+  font-size: 0.9em;
+  color: #f3bf99;
+}
+h3 {
+  font-size: 0.7em;
+}
+h2,
+h3 {
+  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.infoDiv {
+  text-align: center;
+}
+.buttons {
+  display: flex;
+}
+.buttons > div {
+  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  color: #374151;
+  background-color: white;
+  border: 2px solid #d1d5db;
+  margin: 10px;
+  font-size: 0.9em;
+  padding: 0px 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttons > *:last-child {
+  color: white;
+  border: none;
+  background-color: #5093e2;
+}
